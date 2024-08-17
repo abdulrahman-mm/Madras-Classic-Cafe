@@ -14,6 +14,7 @@ const Mission = () => {
             muted
             loop
             playsInline
+            preload='auto'
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
