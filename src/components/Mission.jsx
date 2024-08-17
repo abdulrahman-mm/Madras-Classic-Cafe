@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Mission = () => {
   return (
     <section id="mission">
-      <div className="container mx-auto mt-20 lg:mt-0 text-center pb-16 px-10 md:px-0 ">
+      <div className="container mx-auto mt-20 lg:mt-0 text-center pb-16  ">
 
         <div className="relative flex items-center justify-center">
           <motion.video
@@ -28,7 +28,7 @@ const Mission = () => {
           <motion.p
             initial={{ opacity: 0 }} 
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 2, delay: 0.5 }}
+            transition={{ duration: 2, delay: 0.3 }}
             className="absolute max-w-lg tracking-tighter  lg:text-3xl"
           >
             {MISSION}

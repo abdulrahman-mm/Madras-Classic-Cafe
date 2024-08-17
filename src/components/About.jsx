@@ -16,7 +16,7 @@ export const About = () => {
           alt="about image"
            initial={{ opacity: 0, x: -50 }}
            whileInView={{ opacity: 1, x: 0 }}
-           transition={{ duration: 1, delay: 0.5 }}
+           transition={{ duration: 1, delay: 0.2 }}
           src={about} className="rounded-3xl" />
         </div>
 
@@ -24,7 +24,7 @@ export const About = () => {
           <motion.h2
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, delay: 0.6 }}
+            transition={{ duration: 1, delay: 0.3 }}
             className="text-4xl tracking-tighter lg:text-6xl "
           >
             {ABOUT.header}
@@ -32,13 +32,13 @@ export const About = () => {
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, delay: 0.6 }}
+            transition={{ duration: 1, delay: 0.3 }}
             className="mb-8 mt-1 h-2 w-36 bg-rose-300 rotate-3"
           ></motion.div>
           <motion.p
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, delay: 0.6 }}
+            transition={{ duration: 1, delay: 0.3 }}
             className=" text-xl leading-relaxed tracking-tight lg:max-w-xl"
           >
             {ABOUT.content}

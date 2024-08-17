@@ -2,7 +2,6 @@ import { FaTimes } from "react-icons/fa";
 import { LINKS } from "../constants";
 import { FaBars } from "react-icons/fa6";
 import { useState } from "react";
-import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

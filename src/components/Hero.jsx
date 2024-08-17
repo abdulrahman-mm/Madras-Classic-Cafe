@@ -20,13 +20,13 @@ const Hero = () => {
 
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-70% to-black"></div>
 
-      <div className="absolute z-20 flex h-screen flex-col justify-end pb-14">
+      <div className="absolute z-20 flex h-screen flex-col justify-end mb-40 md:mb-0 pb-14">
 
         <motion.p
          initial={{ opacity: 0 }}
          animate={{ opacity: 1 }}
-         transition={{ duration: 4, delay: 4 }}
-         className="w-full px-9 text-2xl sm:text-4xl md:text-6xl lg:text-8xl font-bold font-serif text-white/50"
+         transition={{ duration: 2, delay: 3 }}
+         className="w-full px-9 text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold font-serif text-white/50"
         >
           Madras Classic Cafe
         </motion.p>

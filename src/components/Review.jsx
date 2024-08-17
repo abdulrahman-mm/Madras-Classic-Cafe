@@ -30,7 +30,7 @@ const Review = () => {
 
         <p className="my-8 text-center text-3xl tracking-tighter lg:text-4xl">Cutomers Reviews</p>
         <motion.p
-        initial={{opacity:0,x:-100}}
+        initial={{opacity:0,x:-10}}
         whileInView={{opacity:1,x:0}}
         transition={{duration:1,delay:0.3}}
         className="mb-7 text-xl font-light lg:leading-normal tracking-tighter lg:mx-40 lg:mt-10 lg:text-[2rem]">
@@ -42,7 +42,7 @@ const Review = () => {
         </motion.p>
 
         <motion.p
-        initial={{opacity:0,x:100}}
+        initial={{opacity:0,x:10}}
         whileInView={{opacity:1,x:0}}
         transition={{duration:1,delay:0.3}}
         className="mb-7 text-xl font-light lg:leading-normal tracking-tighter lg:mx-40 lg:mt-10 lg:text-[2rem]">
@@ -55,7 +55,7 @@ const Review = () => {
         </motion.p>
 
         <motion.p 
-        initial={{opacity:0,x:-100}}
+        initial={{opacity:0,x:-10}}
         whileInView={{opacity:1,x:0}}
         transition={{duration:1,delay:0.3}}
         className="mb-7 text-xl font-light lg:leading-normal tracking-tighter lg:mx-40 lg:mt-10 lg:text-[2rem]">
