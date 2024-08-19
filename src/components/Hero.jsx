@@ -1,5 +1,5 @@
 import React from "react";
-import video3_1 from "../assets/food3_1.mp4";
+import video3_2 from "../assets/food3_2.mp4";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="absolute inset-0 -z-20 h-full w-full overflow-hidden">
         <video
           className="h-full w-full object-cover"
-          src={video3_1}
+          src={video3_2}
           muted
           autoPlay
           loop
