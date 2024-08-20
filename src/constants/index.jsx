@@ -32,7 +32,7 @@ export const DISHES = [
   },
   {
     image: dish2,
-    title: "Chicken Tikka Masala",
+    title: "Chicken Tikka",
     description: "Indian curry with tender chicken in spicy sauce",
   },
   {
@@ -47,7 +47,7 @@ export const DISHES = [
   },
   {
     image: dish5,
-    title: "Chocolate Lava Cake",
+    title: "Chocolate Cake",
     description: "Decadent chocolate cake with a gooey center",
   },
   {

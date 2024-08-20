@@ -39,7 +39,7 @@ export const About = () => {
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
-            className=" text-xl leading-relaxed tracking-tight lg:max-w-xl"
+            className=" text-lg leading-relaxed tracking-tight lg:max-w-xl"
           >
             {ABOUT.content}
           </motion.p>
